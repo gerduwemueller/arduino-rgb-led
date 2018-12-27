@@ -1,5 +1,15 @@
-//www.elegoo.com
-//2016.12.8
+/**
+ * MyRgbLed
+ * 
+ * Sketch zum Ansteuern einer RGB-LED, Ursprung: Arduino Tutorial. Anoden der LED müssen wie folgt angeschlossen sein:
+ * rot: Pin 6
+ * grün: Pin 5
+ * blau: Pin 3
+ * 
+ * Folgende Erweiterungen wurden vorgenommen:
+ * de
+ */
+
 
 // Definiere PINs
 #define PIN_RED  6
