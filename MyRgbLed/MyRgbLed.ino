@@ -5,9 +5,8 @@
  * rot: Pin 6
  * grün: Pin 5
  * blau: Pin 3
- * 
- * Folgende Erweiterungen wurden vorgenommen:
- * de
+ *
+ * Pins müssen Digital PWM Ports sein !
  */
 
 
@@ -20,13 +19,13 @@
 #define BRIGHTNESS 100
 
 // Debug-Ausgabe
-#define DEBUG true
+#define DEBUG false
 
 // Delay zwischen Farbwechsel
 #define delayTime 1000
 
 // Delay beim Fading, 0 um Fading auszuschalten
-#define fadingDelay 0
+#define fadingDelay 100
 
 // Farben
 int COLOR_RED[]     = {BRIGHTNESS,0,0};
